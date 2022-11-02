@@ -1,0 +1,6 @@
+<p>Welcome to random-photo!</p>
+<div>
+  <button (click)="onClick()">Fetch Random Photo</button>
+</div>
+<hr />
+<img *ngIf="myPhotoUrl" [src]="myPhotoUrl" alt="A random photo" />
